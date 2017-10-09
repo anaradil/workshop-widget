@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+fedora_hubs_workshop_widget.egg-info/PKG-INFO
+fedora_hubs_workshop_widget.egg-info/SOURCES.txt
+fedora_hubs_workshop_widget.egg-info/dependency_links.txt
+fedora_hubs_workshop_widget.egg-info/not-zip-safe
+fedora_hubs_workshop_widget.egg-info/requires.txt
+fedora_hubs_workshop_widget.egg-info/top_level.txt
+workshop_widget/__init__.py
+workshop_widget/bzlib.py
+workshop_widget/templates/root.html

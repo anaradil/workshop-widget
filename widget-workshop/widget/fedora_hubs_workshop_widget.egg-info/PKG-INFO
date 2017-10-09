@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: fedora-hubs-workshop-widget
+Version: 0.0.1
+Summary: An example widget for Fedora Hubs
+Home-page: https://pagure.io/fedora-hubs-widget-workshop
+Author: Aurelien Bompard
+Author-email: abompard@fedoraproject.org
+License: AGPLv3+
+Download-URL: https://pagure.io/fedora-hubs-widget-workshop
+Description: This example widget is used in the Hubs widget workshop.
+Platform: UNKNOWN

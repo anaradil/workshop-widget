@@ -1,0 +1,14 @@
+{#
+    Overridden to add the navigation link.
+#}
+{%- extends "layout.html" %}
+{% block body %}
+  {{ body }}
+
+  {%- if next %}
+  <p class="bottom-nav-links">
+      Next: <a href="{{ next.link|e }}" title="{{ _('next chapter')
+      }}">{{ next.title }}</a>
+  </p>
+  {%- endif %}
+{% endblock %}

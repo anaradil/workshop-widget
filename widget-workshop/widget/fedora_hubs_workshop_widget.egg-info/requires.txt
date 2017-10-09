@@ -1,0 +1,2 @@
+fedora-hubs
+python-bugzilla

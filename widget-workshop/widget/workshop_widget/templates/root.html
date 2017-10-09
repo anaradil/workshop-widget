@@ -1,0 +1,45 @@
+{% extends "panel.html" %}
+{% block content %}
+
+{% if reviews.no_bugs %}
+    <strong>No bugs</strong>
+{% endif %}
+
+
+{% if reviews.no_reviewer %}
+    <strong>No reviewer:</strong>
+    <ul>
+    {% for bug in reviews.no_reviewer %}
+        <li>
+            <a href="{{ bug.weburl }}">#{{ bug.id }}</a>
+            {{ bug.summary }}
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% if reviews.under_review %}
+    <strong>Under review:</strong>
+    <ul>
+    {% for bug in reviews.under_review %}
+        <li>
+            <a href="{{ bug.weburl }}">#{{ bug.id }}</a>
+            {{ bug.summary }}
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% if reviews.review_passed %}
+    <strong>Review passed:</strong>
+    <ul>
+    {% for bug in reviews.review_passed %}
+        <li>
+            <a href="{{ bug.weburl }}">#{{ bug.id }}</a>
+            {{ bug.summary }}
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% endblock %}
